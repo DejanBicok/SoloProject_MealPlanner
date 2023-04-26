@@ -1,0 +1,53 @@
+[12-Apr-2023 12:36:19 UTC] PHP Warning:  require_once(components/boot.php): Failed to open stream: No such file or directory in /home/dejancodefactory/public_html/meal_planner/user/details.php on line 179
+[12-Apr-2023 12:36:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'components/boot.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dejancodefactory/public_html/meal_planner/user/details.php:179
+Stack trace:
+#0 {main}
+  thrown in /home/dejancodefactory/public_html/meal_planner/user/details.php on line 179
+[12-Apr-2023 12:36:20 UTC] PHP Warning:  require_once(components/boot.php): Failed to open stream: No such file or directory in /home/dejancodefactory/public_html/meal_planner/user/details.php on line 179
+[12-Apr-2023 12:36:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'components/boot.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dejancodefactory/public_html/meal_planner/user/details.php:179
+Stack trace:
+#0 {main}
+  thrown in /home/dejancodefactory/public_html/meal_planner/user/details.php on line 179
+[12-Apr-2023 16:43:50 UTC] PHP Warning:  Undefined array key "USER" in /home/dejancodefactory/public_html/meal_planner/user/home_user.php on line 6
+[12-Apr-2023 16:43:50 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dejancodefactory/public_html/meal_planner/user/home_user.php:7
+Stack trace:
+#0 /home/dejancodefactory/public_html/meal_planner/user/home_user.php(7): mysqli_fetch_array(false, 1)
+#1 {main}
+  thrown in /home/dejancodefactory/public_html/meal_planner/user/home_user.php on line 7
+[12-Apr-2023 16:43:59 UTC] PHP Warning:  Undefined array key "USER" in /home/dejancodefactory/public_html/meal_planner/user/home_user.php on line 6
+[12-Apr-2023 16:43:59 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dejancodefactory/public_html/meal_planner/user/home_user.php:7
+Stack trace:
+#0 /home/dejancodefactory/public_html/meal_planner/user/home_user.php(7): mysqli_fetch_array(false, 1)
+#1 {main}
+  thrown in /home/dejancodefactory/public_html/meal_planner/user/home_user.php on line 7
+[13-Apr-2023 07:51:11 UTC] PHP Warning:  Undefined array key "USER" in /home/dejancodefactory/public_html/meal_planner/user/home_user.php on line 6
+[13-Apr-2023 07:51:11 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dejancodefactory/public_html/meal_planner/user/home_user.php:7
+Stack trace:
+#0 /home/dejancodefactory/public_html/meal_planner/user/home_user.php(7): mysqli_fetch_array(false, 1)
+#1 {main}
+  thrown in /home/dejancodefactory/public_html/meal_planner/user/home_user.php on line 7
+[13-Apr-2023 12:24:26 UTC] PHP Warning:  Undefined array key "id" in /home/dejancodefactory/public_html/meal_planner/user/details.php on line 37
+[13-Apr-2023 12:24:26 UTC] PHP Warning:  Undefined variable $name in /home/dejancodefactory/public_html/meal_planner/user/details.php on line 188
+[13-Apr-2023 12:24:26 UTC] PHP Warning:  Undefined variable $picture in /home/dejancodefactory/public_html/meal_planner/user/details.php on line 193
+[13-Apr-2023 12:24:26 UTC] PHP Warning:  Undefined variable $name in /home/dejancodefactory/public_html/meal_planner/user/details.php on line 193
+[13-Apr-2023 12:24:26 UTC] PHP Warning:  Undefined variable $ingredients in /home/dejancodefactory/public_html/meal_planner/user/details.php on line 202
+[13-Apr-2023 12:24:26 UTC] PHP Warning:  Undefined variable $meal_description in /home/dejancodefactory/public_html/meal_planner/user/details.php on line 209
+[13-Apr-2023 12:24:26 UTC] PHP Warning:  Undefined variable $cooking_prep_time in /home/dejancodefactory/public_html/meal_planner/user/details.php on line 210
+[13-Apr-2023 12:24:26 UTC] PHP Warning:  Undefined variable $calories in /home/dejancodefactory/public_html/meal_planner/user/details.php on line 211
+[13-Apr-2023 12:24:26 UTC] PHP Warning:  Undefined variable $food_type in /home/dejancodefactory/public_html/meal_planner/user/details.php on line 212
+[13-Apr-2023 12:24:26 UTC] PHP Warning:  Undefined variable $video in /home/dejancodefactory/public_html/meal_planner/user/details.php on line 215
+[13-Apr-2023 12:24:26 UTC] PHP Warning:  Undefined variable $tbody2 in /home/dejancodefactory/public_html/meal_planner/user/details.php on line 216
+[13-Apr-2023 12:24:26 UTC] PHP Warning:  Undefined variable $tmessage2 in /home/dejancodefactory/public_html/meal_planner/user/details.php on line 218
+[13-Apr-2023 12:24:26 UTC] PHP Warning:  Undefined variable $name in /home/dejancodefactory/public_html/meal_planner/user/details.php on line 231
+[15-Apr-2023 10:26:35 UTC] PHP Warning:  Undefined array key "USER" in /home/dejancodefactory/public_html/meal_planner/user/details.php on line 6
+[15-Apr-2023 10:26:35 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dejancodefactory/public_html/meal_planner/user/details.php:7
+Stack trace:
+#0 /home/dejancodefactory/public_html/meal_planner/user/details.php(7): mysqli_fetch_array(false, 1)
+#1 {main}
+  thrown in /home/dejancodefactory/public_html/meal_planner/user/details.php on line 7
+[15-Apr-2023 10:26:37 UTC] PHP Warning:  Undefined array key "USER" in /home/dejancodefactory/public_html/meal_planner/user/home_user.php on line 6
+[15-Apr-2023 10:26:37 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dejancodefactory/public_html/meal_planner/user/home_user.php:7
+Stack trace:
+#0 /home/dejancodefactory/public_html/meal_planner/user/home_user.php(7): mysqli_fetch_array(false, 1)
+#1 {main}
+  thrown in /home/dejancodefactory/public_html/meal_planner/user/home_user.php on line 7

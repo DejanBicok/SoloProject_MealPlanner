@@ -1,0 +1,2509 @@
+body * {
+    text-decoration: none !important;
+    color:#7D8F69;
+    /* font-family: "Stratum2","Open Sans","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif; */
+    font-family: 'Alkatra', cursive,"Stratum2","Open Sans","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.h1 {
+    text-align: center;
+    padding-top: 2.7%;
+    padding-bottom: 2%;
+}
+
+/* food categories on home_user */
+
+#buttons {
+    padding: 25px;
+    
+}
+
+.f-categ {
+    font-size: 24px;
+    border: 2px solid #595959;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #ececec;
+    
+
+}
+
+.f-categ:hover {
+    background-color: #ffd79a;
+    
+}
+
+a.dropdown-item {
+    text-align: center;
+    border-left: 1px solid rgb(172, 172, 172);
+    border-right: 1px solid rgb(172, 172, 172);
+    border-bottom: 1px solid rgb(172, 172, 172);
+
+}
+
+#food_cat_dropdown a.dropdown-item {
+    padding: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+    border-left: 1px solid #595959;
+    border-right: 1px solid #595959;
+    border-bottom: 1px solid #595959;
+}
+
+ul{ 
+    list-style-type: none;
+}
+/* */
+
+aside {
+    float: left;
+    margin-left: -8.5%;
+    width: 9.9%;
+    height: 20%;
+    position: absolute;
+}
+
+.card-deck {
+    width: 20%;
+    height: 50%;
+}
+
+.card-link {
+    text-decoration: none;
+
+}
+
+/****************** LOGO DB D  ******************/
+
+.logodb {
+    float: right;
+    margin-right: 13.5px;
+    margin-bottom: 1px;
+    border: 3.5px solid rgb(197, 197, 197);
+    border-radius: 30px;
+    transition: 0.7s ease;
+    
+}
+
+.logodb {
+    -webkit-filter: brightness(95%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 0.5s ease;
+
+}
+
+.logodb:hover {
+    -webkit-filter: brightness(115%);
+
+}
+
+
+/***************** user search ***************/
+
+.manageProduct-user-search {
+    background: linear-gradient(165deg, #e7b15f 40%, #e4a03a 55%);
+    border: 4px solid rgb(229, 229, 229);
+    position: relative;
+    margin: 25%;
+
+}
+
+/****************** CARDS  ******************/
+
+.manageProduct {
+    background: linear-gradient(165deg, #e7b15f 40%, #e4a03a 55%);
+    border: 4px solid rgb(229, 229, 229);
+    position: relative;
+    margin: 0.2%;
+
+}
+
+div.mt-2.manageProduct {
+    margin-bottom: -8.5em !important;
+}
+
+div.row.w-200 {
+    margin-top: -7.5%;
+    margin-bottom: -3.5%;
+    margin-left: 1%;
+
+}
+
+.card-product {
+    border-radius: 25px;
+    box-shadow: 11px 11px 5px rgba(0, 0, 0, 0.3);
+    height: 400px;
+    width: 350px !important;
+    margin-top: 100px;
+    text-align: center;
+    /* background: linear-gradient(150deg, #ffd79a 65%, #ebb15a 80%); */
+    background-color: rgb(241, 241, 241);
+    color: #595959;
+    transition: 0.5s ease;
+    position: relative;
+    padding: 2px;
+    
+}
+
+.card-product:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 0.5s ease;
+
+}
+
+.container-product {
+    /* width: 280px;
+    height: 520px;
+    margin: 30px auto;
+    font-family: "Roboto", sans-serif;
+    margin: 50px !important; */
+    padding: 6em;
+    width: auto;
+    
+}
+
+div.manageProduct-video.w-100.mt-2 {
+    margin-bottom: -9em !important;
+}
+
+
+.container-product-index-user {
+    /* width: 280px;
+    height: 520px;
+    margin: 30px auto;
+    font-family: "Roboto", sans-serif;
+    margin: 50px !important; */
+    padding: 14em;
+    width: auto;
+}
+
+div.card-product {
+    border-radius: 70px 5px 70px 5px;
+    margin-right: 0.8rem !important;
+    
+}
+
+.product-detail-product {
+    padding-top: 35%;
+    
+
+}
+
+.card-head-product .product-img-product {
+    height: 270px;
+    background: #837f79;
+    /* Old browsers */
+    /* FF3.6-15 */
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #837f79 8%, #cacaca 83%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fa782e', endColorstr='#c82930', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    border-radius: 70px 5px 70px 5px;
+    background-image: url("../images/"); background-image: cover;
+    width: 100%;
+    
+    
+}
+
+.back-text-product {
+    /* display: inline-block; */
+    /* position: relative; */
+    font-size: 45px;
+    font-weight: 800;
+    margin-left: 177px;
+    margin-top: -169px;
+    opacity: 0.8;
+    transform: rotate(-90deg);
+    color: #cacaca;
+    /* display: flex;       ?????????????????????????????? */
+    /* padding-top: 21%; */
+    /* padding-left: 24%; */
+    width: 270px;
+    background-color: #3c543a;
+    border-radius: 0px 0px 0px 100px;
+
+    
+}
+  
+.logo-img flex-fill w-50 {
+    opacity: 0.7;
+}
+
+/* NAV LOGIN */
+
+#mySidepanel_login {
+    border: 2.5px solid whitesmoke;
+    border-radius: 7px;
+    background-color: #7D8F69;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 63.5em;          /* preveliki margin  ???????? */
+    
+}
+
+div#mySidepanel_login.sidepanel_login {
+    position: absolute;
+    display: flex;
+    
+}
+
+#mySidepanel_login a{
+    color:#ebb15a;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 15px;
+    
+}
+
+#mySidepanel_login a:hover{
+    background: #557153;
+}
+
+#mySidePanel_login_nav a{
+    color:#ebb15a;
+    text-decoration: none;
+}
+
+.navbar_login-nav {
+    float: right;
+    
+}
+
+/*  /////////////////////////// */
+
+/* NAV_HOME */
+
+#mySidepanel_home {
+    border: 2.5px solid whitesmoke;
+    border-radius: 7px;
+    background-color: #7D8F69;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 44.4em;          /* preveliki margin  ???????? */
+    
+}
+
+div#mySidepanel_home.sidepanel_home {
+    position: absolute;
+    display: flex;
+    
+}
+
+#mySidepanel_home a{
+    color:#ebb15a;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 15px;
+    
+}
+
+#mySidepanel_home a:hover{
+    background: #557153;
+}
+
+#mySidePanel_home_nav a{
+    color:#ebb15a;
+    text-decoration: none;
+}
+
+.navbar_home-nav {
+    float: right;
+    
+}
+
+/* ///////////////////////////////// */
+
+/* NAV_REGISTER */
+
+#mySidepanel_register {
+    border: 2.5px solid whitesmoke;
+    border-radius: 7px;
+    background-color: #7D8F69;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 66.2em;          /* preveliki margin  ???????? */
+    
+}
+
+div#mySidepanel_register.sidepanel_register {
+    position: absolute;
+    display: flex;
+    
+}
+
+#mySidepanel_register a{
+    color:#ebb15a;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 15px;
+    
+}
+
+#mySidepanel_register a:hover{
+    background: #557153;
+}
+
+#mySidePanel_register_nav a{
+    color:#ebb15a;
+    text-decoration: none;
+}
+
+.navbar_register-nav {
+    float: right;
+    
+}
+
+/* NAV_USER */
+
+
+#mySidepanel {
+    border: 2.5px solid whitesmoke;
+    border-radius: 7px;
+    background-color: #7D8F69;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 20em;          /* preveliki margin  ???????? */
+    
+}
+
+div#mySidepanel.sidepanel {
+    position: absolute;
+    display: flex;
+    
+}
+
+#mySidepanel a{
+    color:#ebb15a;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 15px;
+    
+}
+
+#mySidepanel a:hover{
+    background: #557153;
+    
+}
+
+#mySidePanel_nav a{
+    color:#ebb15a;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    float: right;
+    
+}
+
+/* NAV_ADMIN */
+
+#mySidepanel_adm {
+    border: 2.5px solid whitesmoke;
+    border-radius: 7px;
+    background-color: #7D8F69;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 30%;
+    
+}
+
+div#mySidepanel_adm.sidepanel_adm {
+    position: absolute;
+    display: flex;
+    
+}
+
+#mySidepanel_adm a{
+    color:#ebb15a;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 15px;
+    
+}
+
+#mySidepanel_adm a:hover{
+    background: #557153;
+}
+
+#mySidePanel_adm_nav a{
+    color:#ebb15a;
+    text-decoration: none;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+
+/* NAV_ADMIN_SECOND*/
+
+#mySidepanel_adm_second {
+    border: 2.5px solid whitesmoke;
+    border-radius: 7px;
+    background-color: #7D8F69;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 15%;
+    
+}
+
+div#mySidepanel_adm_second.sidepanel_adm_second {
+    position: absolute;
+    display: flex;
+    
+}
+
+#mySidepanel_adm_second a{
+    color:#ebb15a;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 15px;
+    
+}
+
+#mySidepanel_adm_second a:hover{
+    background: #557153;
+}
+
+#mySidePanel_adm_second_nav a{
+    color:#ebb15a;
+    text-decoration: none;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+
+#food_cat_dropdown {
+    background: #ececec;
+    
+}
+
+#my_acc_dropdown {
+    background: #7D8F69;
+
+}
+
+.dropdown-menu.show:hover{
+    display:block;
+}
+
+span .cooktime {
+    margin: 0 100px 0 0;
+    display: flex;
+    
+}
+
+span .kcal {
+    
+    display: flex;
+
+}
+
+.cook-time-img {
+    background-image: url("../images/clockicon.png"); background-repeat: no-repeat;
+    display: flex;
+    margin: 25px;
+}
+
+.cook-kcal-img {
+    background-image: url("../images/kcal.png"); background-repeat: no-repeat;
+    display: flex;
+
+}
+
+.social-icon {
+    padding: 7px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.social-icon:hover {
+    -webkit-filter: brightness(120%);
+  
+}
+
+.fa-facebook {
+  background-color: #757575;
+  color: #e7e579;
+  padding: 10px;
+  padding-right: 17px;
+  border-radius: 50%;
+
+}
+ 
+.fa-youtube {
+  background-color: #757575;
+  color: #e7e579;
+  padding: 10px;
+  border-radius: 50%;
+
+}
+
+.fa-instagram {
+  background-color: #757575;
+  color: #e7e579;
+  padding: 10px;
+  border-radius: 50%;
+
+}
+
+.fa-twitter {
+  background-color: #757575;
+  color: #e7e579;
+  padding: 10px;
+  border-radius: 50%;
+
+}
+
+.logo-img {
+  border-radius: 15%;
+  /* padding: 50px; */
+  margin-left: 1%;
+}
+
+.logo-img-nav {
+    border-radius: 15%;
+    /* padding: 50px; */
+    margin-left: 1.5%;
+}
+
+.logo-img-login {
+    border-radius: 15%;
+    /* padding: 50px; */
+    margin-left: 1.5%;
+}
+
+.logo-img-reg {
+    border-radius: 15%;
+    /* padding: 50px; */
+    margin-left: 1.5%;
+  }
+
+.logo-img-adm-second {
+    border-radius: 15%;
+    /* padding: 50px; */
+    margin-left: 1.5%;
+}
+
+.logo-img-adm {
+    border-radius: 15%;
+    /* padding: 50px; */
+    margin-left: 78%;
+}
+
+/*     !!!!!!!!!!!!!!          SEARCH         !!!!!!!!!!!!!!!      */
+
+* {
+    box-sizing: border-box;
+}
+
+/* style search field */
+
+form.search_button {
+    margin-right: 144px;             /* ??????????????????????????? */
+}
+
+form.search_button input[type=text] {
+    padding: 7px;
+    font-size: 15px;
+    border: 2px solid gray;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    
+}
+
+/* style submit button */
+
+form.search_button button {
+    float: right;
+    width: 20%;
+    padding: 5.5px;
+    background: #ebb15a;
+    color: white;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-left: none; /* prevent double borders */
+    cursor: pointer;
+    
+}
+
+form.search_button button:hover {
+    background: #ffd79a;
+}
+
+/* clear floats */
+
+form.search_button::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+ul.dropdown-menu {
+    color: black;
+}
+
+/* #buttons {
+    text-align: center;
+} */
+
+/*               BOTTOM FOOTER                */
+
+/* div#bottom-footer {
+    width: 100%;
+    bottom: 0;
+    background-color: #595959;
+    padding: 50px;
+}
+
+h2#bottom-h2 {
+    text-decoration: none;
+    color: whitesmoke;
+} */
+
+img.mb-3 {
+    /* position: relative; */
+}
+
+div.col-md-8 {
+    text-align: left;
+
+}
+
+.footer-bottom-user-recipes {
+    width: 100%;
+    height: 100%;
+    padding: 100px 15%;
+    /* padding-left: 20%; */
+    background: #595959;
+    color: #efefef;
+    display: flex;
+    position: relative;
+    margin-top: 12vh;
+
+}
+
+
+
+.footer-bottom-user-recipes div {
+    text-align: center;
+
+}
+
+
+
+/****************** USER FOOTER ***********************/
+
+
+a.copyright {
+    color: #414141;
+    padding-top: 1px;
+    margin-left: 45.15%;              /* ???????????????????????? */
+
+} 
+
+.footer-bottom {
+    width: 100%;
+    height: 100%;
+    padding: 100px 15%;
+    background: #595959;
+    color: #efefef;
+    display: flex;
+    position: relative;
+    margin-top: 25vh;
+
+}
+
+.footer-bottom div {
+    text-align: center;
+
+}
+div.col-one {
+    flex-grow: 3.3;
+
+}
+
+div.col-two {
+    flex-grow: 2;
+
+}
+div.col-three {
+    flex-grow: 2;
+
+}
+
+
+.footer-bottom div h3 {
+    font-weight: 400;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+
+}
+
+.col-one a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+
+}
+
+/***********************************************************/
+
+
+/****************** ADMIN FOOTER ***********************/
+
+
+.footer-bottom-admin {
+    width: 100%;
+    height: 100%;
+    padding: 100px 15%;
+    background: #595959;
+    color: #efefef;
+    display: flex;
+    position: relative;
+    margin-top: 25vh;
+
+}
+
+.footer-bottom-admin div {
+    text-align: center;
+
+}
+div.col-one-admin {
+    flex-grow: 3.3;
+
+}
+
+
+.footer-bottom-admin div h3 {
+    font-weight: 400;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+
+}
+
+.col-one-admin a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+
+}
+
+.copyright-admin {
+    color: #414141;
+    padding-top: 1px;
+    margin-left: 44.5%; 
+
+}
+
+/*********************************************************/
+
+form.footer-mail input {
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+
+}
+
+form.footer-mail button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+p#adm-nav {
+    margin-right: 35%;
+    text-align: center;
+    font-size: 22px !important;
+    margin-bottom: -2.5%;
+}
+
+#userImage {
+    margin-right: 12.1%;
+
+
+}
+
+div.adm-nav-div {
+    margin-right: 21.6%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-bottom-login {
+    width: 100%;
+    height: 100%;
+    padding: 100px 15%;
+    background: #595959;
+    color: #efefef;
+    display: flex;
+    position: relative;
+    margin-top: 22vh;
+
+}
+
+.footer-bottom-login div {
+    text-align: center;
+
+}
+div.col-one {
+    flex-grow: 2.2;
+
+}
+
+div.col-two {
+    flex-grow: 0;
+
+}
+div.col-three {
+    flex-grow: 2;
+
+}
+
+
+.footer-bottom-login div h3 {
+    font-weight: 400;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+
+}
+
+.col-one a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+
+}
+
+form.footer-mail input {
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+
+}
+
+form.footer-mail button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BACK TO TOP BUTTON */
+
+
+button#BackToTop {
+    bottom:-10px;
+    padding: 14px 10px 20px 10px;
+    right: 15px;
+    width: 85px;
+    
+}
+
+button#BackToTop:hover {
+    background: rgb(150, 150, 150);
+    opacity: 0.9;
+}
+
+.Button.Indicator {
+    border-width: 0;
+    box-shadow: 0 0 #fff, 0 1px 3px rgba(34,25,25,0.5);
+    display: block;
+    font-size: 15px;
+    position: fixed;
+    text-align: center;
+    z-index: 4;
+}
+
+.Button.WhiteButton {
+    background: linear-gradient(to bottom, #71b3aa 0%, #7bc4b8 34%, #48c2b8 100%);
+    color: #fff;
+    text-shadow: 0 1px rgba(75,75,75,0.9);
+}
+
+
+.Button {
+    border-radius: 0.3em 0.3em 0.3em 0.3em;
+    cursor: pointer;
+    font-family: 'Open sans',Verdana,Helvetica,Arial,Tahoma,sans-serif;
+    font-weight: bold;
+    line-height: 1.2em;
+    margin: 0;
+
+}
+/*  __________________________  */
+
+.mail {
+    color: #7D8F69;
+
+}
+
+.mail:hover {
+    text-decoration: underline !important;
+}
+
+/* recipe img size */
+
+legend.h2 {
+    padding-top: 1em;
+    max-width: 30%;
+    margin-left: 28.5em;
+    text-align: center;
+}
+
+.img-thumbnail-details {
+    width: 59.9%;
+    height: 500px !important;
+    margin-left: 20%;
+    object-fit: cover;
+}
+
+/* profile pic on nav */
+
+
+img.rounded-circle {
+    width: 150px !important;
+    height: 150px !important;
+    max-width: 100%;
+    object-fit: cover;
+    border: 5px solid whitesmoke;
+    
+}
+
+#my-pic {
+    margin-left: 17.5px;
+    float: right;
+    
+
+}
+
+img.img-thumbnail {
+    max-width: 12em;
+
+}
+
+.search_no_result {
+    text-align: center;
+    margin-left: 25em;
+    
+}
+
+.youtube-play {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgb(57, 57, 57);
+    margin-left: 1%;
+}
+
+p .youtube-play {
+    color: white;
+}
+
+.youtube-play:hover {
+    color: black;
+    background: url("../images/play.png") no-repeat;
+    display: inline;
+    transition: 0s ease;
+    background-color: whitesmoke;
+
+}
+
+
+/*      USER recipe videos     */
+
+.card-product-video {
+    border-radius: 25px;
+    box-shadow: 11px 11px 5px rgba(0, 0, 0, 0.3);
+    width: 350px !important;
+    margin-top: 100px;
+    height: 320px;
+    text-align: center;
+    /* background: linear-gradient(150deg, #ffd79a 65%, #ebb15a 80%); */
+    background-color: rgb(50, 99, 148);
+    color: #595959;
+    position: relative;
+    padding: 10px;             /* border oko slike - debljina */
+
+}
+
+.video-name {
+    color: rgb(241, 241, 241);
+
+}
+
+.product-img-product-video {
+    height: 270px;
+    background: #837f79;
+    /* Old browsers */
+    /* FF3.6-15 */
+    /* Chrome10-25,Safari5.1-6 */
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fa782e', endColorstr='#c82930', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    border-radius: 10px 10px 10px 10px;
+    width: 100%;
+        
+}
+
+.card-head-product-video:hover {
+    display: none;
+    
+}
+
+.card-product-video:hover {
+    /* -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 0.5s ease; */
+    background: url("../images/play.png") no-repeat;
+    background-color:rgb(241, 241, 241);
+
+  
+}
+
+div.card-product-video {
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 5rem !important;
+    
+}
+
+.youtube-play-video {
+    width: 310px;
+    height: 300px;
+   
+}
+.youtube-play-video:hover {
+    
+}
+
+
+.manageProduct-video {
+    background: linear-gradient(170deg, #e7b15f 40%, #ffd79a 55%);
+    border: 4px solid rgb(214, 214, 214);
+    position: relative;
+    margin: 5.5px;
+    padding-left: 140px;
+    background-image: url("../images/videologo2.png"); background-image: no-repeat;
+    
+}
+
+
+/*             ///////////////////////////            */
+
+
+.card-text-posted {
+    border-radius: 10px;
+}
+
+.card-text-posted-by {
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    position: relative;
+    
+}
+
+.card-text {
+    color: #f0f0f0;
+    
+}
+
+
+.card-text-posted-down {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #e7b15f;
+    
+}
+
+div.mt-2 {
+    margin-bottom: 25px !important;
+
+}
+
+.manageProduct-minute {
+    border: 4px solid rgb(229, 229, 229);
+    position: relative;
+    margin: 5.5px;
+    background-image: url("../images/hourglass.jpg"); background-image: repeat;
+}
+
+div.manageProduct-minute.w-100.mt-2 {
+    margin-bottom: -9em !important;
+}
+
+#my-4 {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-left: 5px;
+    font-size: 1.5em;
+    text-align: center;
+    margin-right: -4px;
+    
+
+}
+
+.main_submit_pic_h1 {
+    background-image: url("../images/writing.jpg");  background-size: cover; background-repeat: no-repeat;
+    border: solid 0px black;
+    /* margin-top: 1em; */
+    padding: 3em;
+    text-align: left;
+}
+
+.main_submit_pic_h1 h1 {
+    border: solid 0px black;
+    padding: 2em;
+    text-align: left;
+    color: #000000;
+}
+
+.h5_main_tips {
+    text-align: justify;
+    color: #000000;
+    padding-left: 4em;
+    padding-bottom: 3em;
+}
+
+
+
+/*********************** USER ABOUT PAGE *************************/
+
+.user_about_h1 h1{
+    border: solid 0px black;
+    padding: 2em;
+    text-align: left;
+    color: #cacaca;
+    
+
+}
+
+.user_about_h1 {
+    background-image: url("../images/aboutrecipe.jpg");  background-size: cover; background-repeat: no-repeat;
+    border: solid 0px black;
+    /* margin-top: 1em; */
+    padding: 3em;
+    text-align: left;
+    
+    
+}
+
+.h5_user_about {
+    text-align: justify;
+    color: #cacaca;
+    padding-left: 4em;
+    padding-bottom: 3em;
+
+}
+
+
+.user-faqs-both {
+    border: 0px solid black;
+    text-align: left;
+    background: #efefef !important;
+    inline-size: 250px; 
+    
+    
+}
+
+.user_faqs {
+    color: black;
+    text-align: left;
+    
+
+}
+
+.ul_user_about li a:hover {
+    border-bottom: 2px solid black;
+    
+}
+
+.main_user_about {
+    padding-top: 3em;
+    padding: 5em;
+    margin-top: 5em;
+    margin-bottom: -12.5em;
+
+}
+
+.user_main_user_about {
+    padding-top: 3em;
+    padding: 5em;
+    margin-top: 5em;
+    margin-bottom: -15em;
+
+}
+
+.main_user_about p{
+    inline-size: 800px; 
+
+}
+
+.soc_media_links a{
+    /* text-decoration:underline !important; */
+    color: rgb(174, 128, 0);
+}
+
+.soc_media_links a:hover {
+    text-decoration:underline !important;
+    
+}
+
+/*************************************************************************************/
+
+/******************************** RECIPE DETAILS ***************************************/
+
+p.card-text-p-3 {
+    inline-size: 20px !important; 
+
+}
+
+.btn-add-planner {
+    background-color: #e7b15f;
+    padding: 1em;
+    position: relative;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 10px;
+    border: 0px solid black;
+    margin-left: 16%;
+}
+
+.btn-add-planner:hover {
+    transition: 0.4s;
+    background-color: whitesmoke;
+}
+
+/* comment section username */
+
+.border-1 {
+    --bs-border-width: 0;
+}
+
+div#message {
+    background-color: rgb(235, 235, 235) !important;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+
+}
+
+/* /////////////////////// */
+
+/* LOGIN PAGE */
+
+.container.mt-4 {
+    margin-top: 6% !important;
+    margin-bottom:-5% !important;
+}
+
+.cont1 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px 2px #cacaca;
+    width: 30% !important;
+    margin: auto;
+    
+}
+
+.login-button {
+    border-radius: 30px;
+    border: 0px;
+    background-color: #e7b15f;
+    padding: 1em;
+    width: 90%;
+    transition: 0.3s;
+    position: relative;
+    margin-left: 5%;
+    color: whitesmoke;
+}
+
+.login-button:hover {
+    transition: 0.2s ease-out;
+    background-color: #c48b35;
+
+}
+
+.username-button {
+    padding: 0.7em;
+    width: 90%;
+    border-radius: 3px;
+    border: 1px solid black;
+    position: relative;
+    margin-left: 5%;
+
+}
+
+.username-button:hover {
+    transition: 0.1s ease-out;
+    border: 1px solid #e7b15f;;
+
+}
+
+
+.password-button {
+    padding: 0.7em;
+    width: 90%;
+    border-radius: 3px;
+    border: 1px solid black;
+    position: relative;
+    margin-left: 5%;
+
+}
+
+.password-button:hover {
+    transition: 0.1s ease-out;
+    border: 1px solid #e7b15f;;
+
+}
+
+
+/* //////////////////////////////// */
+
+
+/* REGISTRATION PAGE */
+
+.container-reg.mt-4 {
+    margin-top: 5.5% !important;
+    margin-bottom:-5% !important;
+
+}
+
+.cont1-reg {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px 2px #cacaca;
+    width: 24% !important;
+    margin: auto;
+}
+
+
+.username-button-reg {
+    padding: 0.5em;
+    width: 90%;
+    border-radius: 3px;
+    border: 1px solid black;
+    position: relative;
+    margin-left: 5%;
+
+}
+
+.username-button-reg:hover {
+    transition: 0.1s ease-out;
+    border: 1px solid #e7b15f;;
+
+}
+
+.first-name-reg {
+    padding: 0.5em;
+    width: 90%;
+    border-radius: 3px;
+    border: 1px solid black;
+    position: relative;
+    margin-left: 5%;
+
+}
+
+.first-name-reg:hover {
+    transition: 0.1s ease-out;
+    border: 1px solid #e7b15f;;
+
+}
+
+.last-name-reg {
+    padding: 0.5em;
+    width: 90%;
+    border-radius: 3px;
+    border: 1px solid black;
+    position: relative;
+    margin-left: 5%;
+
+}
+
+.last-name-reg:hover {
+    transition: 0.1s ease-out;
+    border: 1px solid #e7b15f;;
+
+}
+
+.password-reg {
+    padding: 0.5em;
+    width: 90%;
+    border-radius: 3px;
+    border: 1px solid black;
+    position: relative;
+    margin-left: 5%;
+
+}
+
+.password-reg:hover {
+    transition: 0.1s ease-out;
+    border: 1px solid #e7b15f;;
+
+}
+
+.email-reg {
+    padding: 0.5em;
+    width: 90%;
+    border-radius: 3px;
+    border: 1px solid black;
+    position: relative;
+    margin-left: 5%;
+
+}
+
+.email-reg:hover {
+    transition: 0.1s ease-out;
+    border: 1px solid #e7b15f;;
+
+}
+
+input.photo-reg {
+    border-radius: 30px;
+    border: 0px;
+    background-color: #a7a7a7;
+    padding: 1em;
+    width: 90%;
+    transition: 0.3s;
+    position: relative;
+    margin-left: 5%;
+    color: whitesmoke;
+    
+
+}
+
+input.photo-reg:hover {
+    transition: 0.2s ease-out;
+    background-color: #757575;
+    cursor: pointer;
+
+}
+
+::-webkit-file-upload-button { /* choose file button */
+    transition: 0.2s ease-out;
+    background-color: #757575;
+    border: 1px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+::-webkit-file-upload-button:hover { /* choose file button */
+   transition: 0.2s ease-out;
+    background-color: #757575;
+    cursor: pointer;
+}
+
+
+.register-button {
+    border-radius: 30px;
+    border: 0px;
+    background-color: #e7b15f;
+    padding: 1em;
+    width: 90%;
+    transition: 0.3s;
+    position: relative;
+    margin-left: 5%;
+    color: whitesmoke;
+}
+
+.register-button:hover {
+    transition: 0.2s ease-out;
+    background-color: #c48b35;
+
+}
+
+#tips_h5 {
+    inline-size: 650px;
+
+}
+
+#tips_div p{
+    inline-size: 650px;
+    
+}
+
+.user_upd_button {
+    border-radius: 30px;
+    border: 0px;
+    background-color: #e7b15f;
+    padding: 1em;
+    width: 30%;
+    transition: 0.3s;
+    position: relative;
+    color: whitesmoke;
+    margin-left: 0.5%;
+
+
+}
+
+.user_upd_button:hover {
+    transition: 0.2s ease-out;
+    background-color: #c48b35;
+
+}
+
+.user_back_button {
+    border-radius: 30px;
+    border: 0px;
+    background-color: #a7a7a7;
+    padding: 1em;
+    width: 21%;
+    transition: 0.3s;
+    position: relative;
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 2.5%;
+
+}
+
+.user_back_button:hover {
+    transition: 0.2s ease-out;
+    background-color: #757575;
+
+}
+
+.container-user {
+    margin-bottom:-5.5% !important;
+    margin-left: 35.4% !important;
+}
+
+div.container-upd.border.rounded-3.p-4.w-50.mt-4.mb-5 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px 2px #cacaca;
+    width: 45% !important;
+    /* margin: auto; */
+}
+
+div.card-body.rounded-3.p-4 p{
+    text-align: center;
+    margin-left: 36.5%;
+}
+
+div.container-upd-acc.border.rounded-3.p-4.w-50.mt-4.mb-5 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px 2px #cacaca;
+    width: 45% !important;
+    height: 55em !important;
+}
+
+.rounded-circle-update {
+    margin-left: 40%;
+    object-fit: cover;
+    border: 5px solid whitesmoke;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+/************** Update user *******************/
+
+.upd_save_button {
+    border-radius: 30px;
+    border: 0px;
+    background-color: #e7b15f;
+    padding: 1em;
+    width: 40%;
+    transition: 0.3s;
+    position: absolute;
+    color: whitesmoke;
+    margin-top: 41%;
+    
+}   
+
+
+.upd_save_button:hover {
+    transition: 0.2s ease-out;
+    background-color: #c48b35;
+
+}
+
+.upd_back_button {
+    border-radius: 30px;
+    border: 0px;
+    background-color: #a7a7a7;
+    padding: 1em;
+    width: 21%;
+    transition: 0.3s;
+    position: absolute;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 41%;
+    margin-left: 79%;
+
+}
+
+.upd_back_button:hover {
+    transition: 0.2s ease-out;
+    background-color: #757575;
+}
+
+.upd-username {
+    padding: 0.7em;
+    width: 90%;
+    border-radius: 3px;
+    border: 1px solid black;
+    position: relative;
+    margin-left: 5%;
+}
+
+.upd-username:hover {
+    transition: 0.1s ease-out;
+    border: 1px solid #e7b15f;
+
+}
+
+.upd-fname {
+    padding: 0.7em;
+    width: 90%;
+    border-radius: 3px;
+    border: 1px solid black;
+    position: relative;
+    margin-left: 5%;
+}
+
+.upd-fname:hover {
+    transition: 0.1s ease-out;
+    border: 1px solid #e7b15f;
+}
+
+.upd-lname {
+    padding: 0.7em;
+    width: 90%;
+    border-radius: 3px;
+    border: 1px solid black;
+    position: relative;
+    margin-left: 5%;
+}
+
+.upd-lname:hover {
+    transition: 0.1s ease-out;
+    border: 1px solid #e7b15f;
+}
+
+.upd-email {
+    padding: 0.7em;
+    width: 90%;
+    border-radius: 3px;
+    border: 1px solid black;
+    position: relative;
+    margin-left: 5%;
+}
+
+.upd-email:hover {
+    transition: 0.1s ease-out;
+    border: 1px solid #e7b15f;
+}
+
+.upd-photo {
+    border-radius: 30px;
+    border: 0px;
+    background-color: #a7a7a7;
+    padding: 1em;
+    width: 90%;
+    transition: 0.3s;
+    position: relative;
+    margin-left: 5%;
+    color: whitesmoke;
+}
+
+.upd-photo:hover {
+    transition: 0.2s ease-out;
+    background-color: #757575;
+    cursor: pointer;
+}
+
+.cont1-upd {
+    position: relative;
+}
+/******************************************/
+
+
+/******************************* MEAL PLANNER **********************************/
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    width: 14%;
+    padding: 10px;
+    height: auto; /* Should be removed. Only for demonstration */
+    margin: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+  }
+}
+
+.planner_edit_btn {
+    border-radius: 30px;
+    border: 0px;
+    background-color: #e7b15f;
+    padding: 1em;
+    width: auto;
+    transition: 0.3s;
+    position: relative;
+    margin-left: 5%;
+    color: whitesmoke;
+    
+}   
+
+
+.planner_edit_btn:hover {
+    transition: 0.2s ease-out;
+    background-color: #c48b35;
+
+}
+
+.planner_back_btn {
+    border-radius: 30px;
+    border: 0px;
+    background-color: #a7a7a7;
+    padding: 1em;
+    width: auto;
+    transition: 0.3s;
+    position: relative;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.planner_back_btn:hover {
+    transition: 0.2s ease-out;
+    background-color: #757575;
+
+}
+
+.planner_del_btn {
+    border-radius: 30px;
+    border: 0px;
+    background-color: #c43535;
+    padding: 1em;
+    width: 9%;
+    transition: 0.3s;
+    position: relative;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.planner_del_btn:hover {
+    transition: 0.2s ease-out;
+    background-color: #941e1e;
+}
+
+.my_planner_del_btn {
+    border-radius: 30px;
+    border: 0px;
+    background-color: #c43535;
+    padding: 1em;
+    width: auto;
+    transition: 0.3s;
+    position: relative;
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 32%;
+}
+
+.my_planner_del_btn:hover {
+    transition: 0.2s ease-out;
+    background-color: #941e1e;
+}
+
+
+.my_planner_edit_btn {
+    border-radius: 30px;
+    border: 0px;
+    background-color: #e7b15f;
+    padding: 1em;
+    width: auto;
+    transition: 0.3s;
+    position: relative;
+    margin-left: 5%;
+    color: whitesmoke;
+    
+}   
+
+
+.my_planner_edit_btn:hover {
+    transition: 0.2s ease-out;
+    background-color: #c48b35;
+
+}
+
+
+/******************************************************************************/
+
+
+/************************************** CREATE RECIPE ******************************/
+
+.create_save_btn {
+    border-radius: 30px;
+    border: 0px;
+    background-color: #e7b15f;
+    padding: 1em;
+    width: auto;
+    transition: 0.3s;
+    position: relative;
+    margin-left: 5%;
+    color: whitesmoke;
+
+}
+
+.create_save_btn:hover {
+    transition: 0.2s ease-out;
+    background-color: #c48b35;
+
+}
+
+.create_back_btn {
+    border-radius: 30px;
+    border: 0px;
+    background-color: #a7a7a7;
+    padding: 1em;
+    width: auto;
+    transition: 0.3s;
+    position: relative;
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 2.5%;
+
+}
+
+.create_back_btn:hover {
+    transition: 0.2s ease-out;
+    background-color: #757575;
+
+}
+
+/************ CREATE RECIPE ***************/
+
+div.container-create-rec.border.rounded-3.p-4.w-50.mt-4.mb-5 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px 2px #cacaca;
+    width: 45% !important;
+    height: auto;
+    margin-left: 28.1%;
+    margin-bottom: 8% !important;
+
+}
+
+.create_save_btn_cr { 
+    border-radius: 30px;
+    border: 0px;
+    background-color: #e7b15f;
+    padding: 1em;
+    width: auto;
+    transition: 0.3s;
+    position: relative;
+    color: whitesmoke;
+    float: left;
+
+
+}
+
+.create_save_btn_cr:hover {
+    transition: 0.2s ease-out;
+    background-color: #c48b35;
+
+}
+
+.create_back_btn_cr {
+    border-radius: 30px;
+    border: 0px;
+    background-color: #a7a7a7;
+    padding: 1em;
+    width: auto;
+    transition: 0.3s;
+    position: relative;
+    color: whitesmoke;
+    text-align: center;
+    float: right;
+
+}
+
+.create_back_btn_cr:hover {
+    transition: 0.2s ease-out;
+    background-color: #757575;
+
+}
+
+.form-control {
+    padding: 0.7em;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.create-photo {
+    border-radius: 30px;
+    border: 0px;
+    background-color: #a7a7a7;
+    padding: 1em;
+    width: 100%;
+    transition: 0.3s;
+    position: relative;
+    color: whitesmoke;
+}
+
+.create-photo:hover {
+    transition: 0.2s ease-out;
+    background-color: #757575;
+    cursor: pointer;
+}
+
+.create-food-type-rec {
+    padding: 0.55em;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid black;
+    position: relative;
+}
+
+/*****************************************/
+
+/*********************** MY RECIPES *************************/
+
+
+.manageProduct_index_user {
+    background-image: url("../images/cutboard.jpg"); background-repeat: repeat;
+    border: 4px solid rgb(229, 229, 229);
+    position: relative;
+    margin: 1%;
+
+}
+
+div.mt-2.manageProduct_index_user  {
+    margin-bottom: -11% !important;
+}
+
+.my_recipe_back_btn {
+    border-radius: 30px;
+    border: 0px;
+    background-color: #a7a7a7;
+    padding: 1em;
+    width: 40%;
+    transition: 0.3s;
+    position: relative;
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+.my_recipe_back_btn:hover {
+    transition: 0.2s ease-out;
+    background-color: #757575;
+}
+
+.my_recipe_del_btn {
+    border-radius: 30px;
+    border: 0px;
+    background-color: #c43535;
+    padding: 1em;
+    width: 39%;
+    transition: 0.3s;
+    position: relative;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.my_recipe_del_btn:hover {
+    transition: 0.2s ease-out;
+    background-color: #941e1e;
+
+}
+
+.card-product-my-recipe {
+    border-radius: 25px;
+    box-shadow: 11px 11px 5px rgba(0, 0, 0, 0.3);
+    height: 480px;
+    width: 350px !important;
+    margin-top: 100px;
+    text-align: center;
+    /* background: linear-gradient(150deg, #ffd79a 65%, #ebb15a 80%); */
+    background-color: rgb(241, 241, 241);
+    color: #595959;
+    transition: 0.5s ease;
+    position: relative;
+    padding: 2px;
+    
+}
+
+.card-product-my-recipe:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 0.5s ease;
+
+}
+
+div.card-product-my-recipe {
+    border-radius: 5px 5px 5px 5px;
+    margin-right: 0.8rem !important;
+    
+}
+
+.card-head-product-my-recipe .product-img-product-my-recipe {
+    height: 270px;
+    background: #837f79;
+    /* Old browsers */
+    /* FF3.6-15 */
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #837f79 8%, #cacaca 83%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fa782e', endColorstr='#c82930', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    border-radius: 5px 5px 70px 5px;
+    background-image: url("../images/"); background-image: cover;
+    width: 100%;
+        
+}
+
+/***************************************************************************************/
+
+/*********************************** UPDATE MY RECIPE ******************************/
+
+div.container-update-rec.border.rounded-3.p-4.w-50.mt-4.mb-5 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px 2px #cacaca;
+    width: 45% !important;
+    height: auto;
+    margin-left: 28.1%;
+
+}
+
+.update-food-type-rec {
+    padding: 0.55em;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid black;
+    position: relative;
+    height: auto;
+
+
+}
+
+.update-photo-rec {
+
+    border-radius: 30px;
+    border: 0px;
+    background-color: #a7a7a7;
+    padding: 1em;
+    width: 100%;
+    transition: 0.3s;
+    position: relative;
+    color: whitesmoke;
+
+}
+    
+.update-photo-rec:hover {
+    transition: 0.2s ease-out;
+    background-color: #757575;
+    cursor: pointer;
+
+}
+
+.upd-my-rec-save-btn {
+    border-radius: 30px;
+    border: 0px;
+    background-color: #e7b15f;
+    padding: 1em;
+    width: auto;
+    transition: 0.3s;
+    position: relative;
+    color: whitesmoke;
+    float: left;
+
+}
+
+.upd-my-rec-save-btn:hover {
+    transition: 0.2s ease-out;
+    background-color: #c48b35;
+
+}
+
+.back-my-rec-myrec-btn {
+    border-radius: 30px;
+    border: 0px;
+    background-color: #a7a7a7;
+    padding: 1em;
+    width: auto;
+    transition: 0.3s;
+    position: relative;
+    color: whitesmoke;
+    text-align: center;
+    float: right;
+}
+
+.back-my-rec-myrec-btn:hover {
+    transition: 0.2s ease-out;
+    background-color: #757575;
+
+}
+
+/*******************************************************/
+
+center.no_made_recipe {
+    font-size: 27px !important;
+    text-align: center;
+    margin-top: 30%;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 10px 15px rgba(255, 255, 255, 255);
+    border-radius: 5px;
+
+}
+
+/*********************************************** MEAL PLANNER / DAYS**************************************************/
+
+#day_buttons {
+    padding: 25px;
+}
+
+.day_category {
+    font-size: 24px;
+    border: 2px solid #595959;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #ebb15a;
+    
+
+}
+
+.day_category:hover {
+    background-color: #ffd79a;
+    
+}
+
+a.dropdown-item {
+    text-align: center;
+    border-left: 1px solid rgb(172, 172, 172);
+    border-right: 1px solid rgb(172, 172, 172);
+    border-bottom: 1px solid rgb(172, 172, 172);
+
+}
+
+#food_cat_dropdown a.dropdown-item {
+    padding: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+    border-left: 1px solid #595959;
+    border-right: 1px solid #595959;
+    border-bottom: 1px solid #595959;
+}
+
+ul{ 
+    list-style-type: none;
+}
+/* */
+
+/* aside {
+    float: left;
+    background-color: rgb(229, 229, 229);
+    width: 9.9%;
+    height: 38.1%;
+    position: absolute;
+} */
+
+.card-deck {
+    width: 20%;
+    height: 50%;
+}
+
+.card-link {
+    text-decoration: none;
+
+}
+
+/* .float-container {
+    width: 12%;
+    
+} */
+
+.float-container {
+    margin-right: 1%;
+    margin-top: 1%;
+    width: 395px;
+    padding: 1%;
+    height: 500px; 
+    overflow-y: scroll; 
+    background-color:rgb(255, 255, 255); 
+    box-shadow: 0px 0px 5px 5px #cacaca; 
+    border-radius: 5px;
+    margin: 0 auto;
+    
+}
+
+.scroll {
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+.float-child {
+    
+}
+
+.col-sm {
+    padding: 10px;
+    font-size: 22px;
+    background-color: rgb(221, 221, 221);
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+.col-sm:hover {
+    background-color: rgb(180, 180, 180);
+    
+}
+
+.manageProduct-day{
+    border: 4px solid rgb(229, 229, 229);
+    position: relative;
+    margin: 1.4%;
+    overflow-y: auto;
+    
+}
+
+
+
+div.mt-2.manageProduct-day {
+    margin-bottom: -180px !important;
+    
+}
+
+.manageProduct-day-planner {
+    border: 4px solid rgb(229, 229, 229);
+    position: relative;
+    margin: 1.4%;
+    overflow-y: auto;
+    display: grid;
+}
+
+
+
+div.mt-2.manageProduct-day-planner {
+    margin-bottom: -3.2% !important;
+    
+}
+
+
+div.row-day.w-200 {
+    margin-top: -5.5%;
+    margin-bottom: -4.5%;
+    margin-left: 0.55%;
+
+}
+
+.container-product-day {
+    /* width: 280px;
+    height: 520px;
+    margin: 30px auto;
+    font-family: "Roboto", sans-serif;
+    margin: 50px !important; */
+    padding: 12em;
+    width: auto;
+    
+}
+
+h2.text-center-day {
+    border-radius: 5px;
+    background-color: rgb(119, 119, 119);
+    color: rgb(255, 255, 255) !important;
+    text-align: center;
+    margin-bottom: 2%;
+    width: 45%;
+    margin-left: 30%;
+}
+
+
+
+div.row {
+    display: flex;
+}
+
+h3.h3-day {
+    background-color: #e7b15f !important;
+    border-radius: 3px;
+    padding-left: 2.5px;
+}
+
+div.col-sm {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+/*************************************** BLOCK PAGE *************************************/
+
+div#blocked{
+    background-color: #b92500;
+    font-size: 300%;
+    text-align: center;
+    color: whitesmoke;
+    padding-left: 20% !important;
+    padding-right: 20% !important;
+    margin-top: 5.9%;
+    margin-bottom: -10.7%;
+
+}
+h1#blocked_h1{
+    color: whitesmoke;
+    position: relative;
+    font-size: 80%;
+    border: solid 2px white;
+    padding: 5rem;
+    top: -2rem;
+    border-radius: 5px;
+    background-color: grey;
+
+
+}
+h2 a#blocked_h2{
+    font-size: 80%;
+    text-decoration: none;
+    color: whitesmoke;
+    border: solid 2px white;
+    border-radius: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: grey;
+
+
+}
+
+h2 a#blocked_h2:hover{
+    background-color: rgb(92, 92, 92);
+
+}
+
+/**************************************************************************************/
+
+/*********** A CREATE **********/
+
+.btn-create-recipe {
+    border-radius: 30px;
+    border: 0px;
+    background-color: #a7a7a7;
+    padding: 1em;
+    width: 8%;
+    transition: 0.3s;
+    position: relative;
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 46%;
+}
+
+.btn-create-recipe:hover {
+    transition: 0.2s ease-out;
+    background-color: #757575;
+}
+
+/****************** update planner **********************/
+
+div.container-upd-planner.border.rounded-3.p-4.w-50.mt-4.mb-5 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px 2px #cacaca;
+    width: 38% !important;
+    height: 40em !important;
+    margin: 0 auto;
+    margin-bottom: -3.5% !important;
+}
+
+.upd-planner-field {
+}
+
+.day-of-the-week-upd {
+    padding: 0.7em;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid black;
+    position: relative;
+    margin-right: 30%;
+}
+
+.day-of-the-week-upd:hover {
+    transition: 0.1s ease-out;
+    border: 1px solid #e7b15f;
+}
+
+/****************************************************/

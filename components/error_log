@@ -1,0 +1,2 @@
+[11-Apr-2023 15:33:35 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'dejancodefactory_admin'@'vmi198149.contaboserver.net' to database 'meal_planner' in /home/dejancodefactory/public_html/meal_planner/components/db_connect.php on line 9
+[11-Apr-2023 15:42:43 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'dejancodefactory_admin'@'vmi198149.contaboserver.net' to database 'dejancodefactory_meal_planner' in /home/dejancodefactory/public_html/meal_planner/components/db_connect.php on line 9
